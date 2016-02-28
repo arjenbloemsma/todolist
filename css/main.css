@@ -1,0 +1,32 @@
+body {
+    padding: 50px;
+    font-size: 1.4rem;
+    font-family: "Yanone Kaffeesatz";
+    font-style: normal;
+    font-weight: 400;
+    background: #5CFF9D;
+}
+
+h3 {
+    
+}
+
+p.geel {
+    background: #FFDB00;
+}
+
+p.mint {
+    background: #5CFF9D;
+}
+
+p.paars {
+    background: #751D94;
+}
+
+p.blauw {
+    background: #00EDFF;
+}
+
+p.roze {
+    background: #E8087A;
+}  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Arjen and Eva's ToDo list of fun stuff'">
+    <meta name="keywords" content="Arjen, Eva, ToDo list, fun">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+    <title>ToDo List</title>
+    <!-- // CSS Reset – http://meyerweb.com/eric/tools/css/reset/ -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="all">
+    
+    <!-- Google Fonts embed code -->
+    <script type="text/javascript">
+        function insertFontLink(protocol, fontLink) {
+            var link_element = document.createElement("link");
+            var s = document.getElementsByTagName("script")[0];
+            link_element.href = protocol + fontLink;
+            link_element.rel = "stylesheet";
+            link_element.type = "text/css";
+            s.parentNode.insertBefore(link_element, s);
+            console.log('Added link: ' + link_element);
+        }
+            
+        (function() {
+            var fonts = [
+                "//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400",
+                "//fonts.googleapis.com/css?family=Pacifico:400"
+            ];
+            
+            var protocol;
+            if (window.location.protocol !== "http:" && window.location.protocol !== "https:") {
+                protocol = "http:";
+            }
+            
+            fonts.forEach(function(f) {
+                insertFontLink(protocol, f);
+            });       
+        })();
+    </script>
+</head>
+<body>
+        <ul class="tasklist" id="todolist">
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Arjen"><input type="checkbox" value="t1" checked>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Arjen"><input type="checkbox" value="t1" checked>Eaque ea consequuntur molestias inventore eos expedita?</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Eva"><input type="checkbox" value="t1" checked>Alias nobis reprehenderit quaerat ipsum.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Arjen"><input type="checkbox" value="t1" checked>Quas voluptatum veritatis cupiditate ea eaque eos.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Arjen"><input type="checkbox" value="t1" checked>Illo iure, et molestias minus, ratione non!</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Arjen"><input type="checkbox" value="t1" checked>Pariatur doloribus quo numquam autem.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Eva"><input type="checkbox" value="t1" checked>Accusantium aliquid tenetur distinctio atque optio aut.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Arjen"><input type="checkbox" value="t1" checked>Et labore veniam, fugiat harum ea pariatur.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Arjen"><input type="checkbox" value="t1" checked>Accusantium neque omnis quos voluptatum nobis consequuntur.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Arjen"><input type="checkbox" value="t1" checked>In sed assumenda.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Eva"><input type="checkbox" value="t1" checked>Vel repudiandae provident perspiciatis repellendus.</li>
+            <li class="task" data-task-date="2016-03-01" data-task-owner="Eva"><input type="checkbox" value="t1" checked>Blanditiis, libero, atque. Perferendis quae odit voluptatum.</li>
+        </ul>
+</body>
+</html>
